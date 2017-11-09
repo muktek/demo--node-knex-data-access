@@ -1,5 +1,7 @@
-const db = require('./src/db/dbConnect.js')
+const dbConnect = require('./src/db/db.js')
+const dbConfig = require('./knexfile.js')
 
+const db = dbConnect(dbConfig.development)
 
 db.select()
   .table('person')

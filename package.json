@@ -9,7 +9,10 @@
   "author": "t3patterson",
   "license": "ISC",
   "dependencies": {
-    "knex": "^0.14.0",
-    "mysql2": "^1.4.2"
+    "knex": "0.14.0",
+    "mysql2": "1.4.2"
+  },
+  "devDependencies": {
+    "prettyjson": "^1.2.1"
   }
 }

@@ -4,6 +4,9 @@ also known as MySQL Server, is the main program that does most of the work in a 
 Start mysql server:
 `mysqld`
 
+Kill mysql Server
+`pkill mysql`
+
 ----
 #### MYSQL User Config
 (1) Create db user

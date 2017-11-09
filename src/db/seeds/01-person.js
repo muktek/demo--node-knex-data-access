@@ -2,26 +2,26 @@ const tableName = 'person'
 
 const seedData = [
   {
-    firstName: 'Travis',
-    lastName: 'Hubbardo',
-    age: 33,
+    firstName: 'Allen',
+    lastName: 'Ignacio',
+    age: 43,
     isActive: true
   },
   {
-    firstName: 'Yair',
-    lastName: 'Rodriguez',
-    age: 25,
+    firstName: 'Gonzo',
+    lastName: 'Bonzo',
+    age: 55,
     isActive: false
   },
   {
-    firstName: 'Enrique',
-    lastName: 'Carralt',
-    age: 34,
+    firstName: 'Kaity',
+    lastName: 'Milner',
+    age: 22,
     isActive: true
   }
 ]
 
-module.exports.seed = function(knex, Promise){
+exports.seed = function(knex){
   return knex('person')
     .del()
     .then(()=> knex.insert(seedData).into('person') )
