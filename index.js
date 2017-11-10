@@ -1,4 +1,4 @@
-const dbConnect = require('./src/db/db.js')
+const dbConnect = require('./src/database/dbConnect.js')
 const dbConfig = require('./knexfile.js')
 
 const db = dbConnect(dbConfig.development)

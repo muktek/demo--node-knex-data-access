@@ -8,10 +8,10 @@ const devConfig = {
     database : 'bbdeebee'
   },
   migrations: {
-    directory: './src/db/migrations'
+    directory: './src/database/migrations'
   },
   seeds: {
-    directory: './src/db/seeds'
+    directory: './src/database/seeds'
   }
 }
 
